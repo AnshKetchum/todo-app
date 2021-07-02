@@ -1,0 +1,102 @@
+h1
+{
+    font-size: 55px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.register-photo {
+    background-image: linear-gradient(to left bottom, #af0c39, #ba0056, #b60080, #9700b4, #1222eb);;
+    padding: 80px 0;
+    height: fit-content; 
+}
+
+.register-photo .image-holder {
+    display: table-cell;
+    width: auto;
+    background: url(https://wallpapercave.com/wp/OP9q4EZ.jpg);
+    background-size: cover
+}
+
+.form-container {
+    display: table;
+    max-width: 1500px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    display: table-cell;
+    width: 500px;
+    height: 75%;
+    padding: 80px 100px 100px 100px;
+    color: black;
+    background-color: white;
+}
+
+@media (max-width:991px) {
+    .register-photo form {
+        padding: 40px
+    }
+}
+
+.register-photo form h2 {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 30px
+}
+
+.register-photo .form .form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #dfe7f1;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 0px;
+    height: 40px
+}
+
+.register-photo form .form-check {
+    font-size: 13px;
+    line-height: 20px
+}
+
+.register-photo form .btn-primary {
+    background: green;
+    border: none;
+    border-radius: 4px;
+    padding: 21px;
+    box-shadow: none;
+    margin-top: 35px;
+    text-shadow: none;
+    outline: none !important
+}
+
+.register-photo form .btn-primary:hover,
+.register-photo form .btn-primary:active {
+    background: green
+}
+
+.register-photo form .btn-primary:active {
+    transform: translateY(1px)
+}
+
+.register-photo form .already {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #6f7a85;
+    opacity: 0.9;
+    text-decoration: none
+}
+
+h2{
+    font-size: 60px;
+}
+
+textarea{
+    height: 140px;
+}
